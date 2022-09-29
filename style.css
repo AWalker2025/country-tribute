@@ -1,0 +1,23 @@
+nav{
+background-color: rgb(131, 79, 79);
+color: rgb(255, 255, 255);
+padding: 0.5rem;
+margin-left: 3rem;
+margin-right: 3rem;
+margin-top: 3rem;
+text-align: center;
+font-size: 1.5rem;
+
+}
+body{
+background-image:url("./img/IMG_0206.JPG")
+}
+
+.album{
+display:grid;
+grid-template-areas:
+"artist Morgan Wallen"
+"";
+
+
+}
