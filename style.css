@@ -1,5 +1,5 @@
 body{
-background-image:url("./img/IMG_0206.JPG");
+background-image:url("./img/background.jpg");
 padding: 0 3rem;
 }
 nav{
@@ -9,6 +9,29 @@ nav{
     margin-top: 3rem;
     text-align: center;
     font-size: 1.5rem;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.artist {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 3fr;
+    border-bottom: 4px solid white;
+    padding: 2rem;
+}
+.album {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+.album img {
+    width: 72%;
+}
+section p {
+    background: rgba(255,255,255,0.8);
+    padding: 1rem;
 }
 img {
     width: 100%;
