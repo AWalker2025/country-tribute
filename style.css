@@ -16,10 +16,9 @@ img {
 }
 .artist {
     display: grid;
-    grid-gap: 2rem;
     grid-template-columns: 1fr 3fr;
     border-bottom: 4px solid rgb(139,69,19);
-    padding: 2rem;
+    padding: 2rem 0;
 }
 .album {
     display: grid;
@@ -38,7 +37,7 @@ section p {
     grid-gap: 2rem;
     grid-template-columns: 1fr 3fr;
     border-bottom: 4px solid rgb(225, 225, 225);
-    padding: 2rem;
+    padding: 2rem 0;
 }
 .album {
     display: grid;
