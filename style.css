@@ -8,7 +8,11 @@ nav{
     padding: 0.5rem;
     margin-top: 3rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: "Rye", serif;
+}
+.title {
+    transform: scale(1.8);
 }
 img {
     width: 100%;
@@ -78,6 +82,17 @@ footer {
     justify-content: center;
     font-size: 1rem;
     margin: 0.5rem 0rem 0.5rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+footer p a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: white !important;
+
+}
+.icon {
+    color: white;
 }
 a {
     color: #000000;
@@ -87,3 +102,7 @@ a:hover {
     color:rgb(139,69,19);
     text-decoration: underline;
   }
+p {
+    font-family: "Noto Serif Telugu";
+
+}
