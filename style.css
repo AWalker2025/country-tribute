@@ -45,9 +45,10 @@ img {
 .album img:first-child {
     padding-left: 0;
 }
-section p {
-    background: rgba(225, 225, 225);
-    padding: 1rem;
+.list {
+    background: rgba(255,255,255,0.8);
+   padding-bottom: 1rem;
+   margin-bottom: 1rem;
 }
 .artist2 {
     display: grid;
@@ -59,22 +60,18 @@ section p {
 
 
 section p {
-    background: rgba(255,255,255,0.8);
     padding: 1rem;
+
 }
 .artist3 {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 3fr;
     border-bottom: 4px solid white;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 
-section p {
-    background: rgba(255,255,255,0.8);
-    padding: 1rem;
-}
 footer {
     background: rgb(139,69,19);
     color: white;
@@ -102,7 +99,20 @@ a:hover {
     color:rgb(139,69,19);
     text-decoration: underline;
   }
-p {
+p, ol {
     font-family: "Noto Serif Telugu";
 
+}
+ol {
+    margin-bottom: 0;
+    position: relative;
+    margin-left: .5rem;
+}
+ol::before {
+    content: "Top 3 Favorite Songs";
+    font-size: 120%;
+    position: relative;
+    left: -1.5rem;
+    font-weight: 800;
+    margin-bottom: .5rem;
 }
